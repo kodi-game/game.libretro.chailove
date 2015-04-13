@@ -5,21 +5,26 @@
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="game.libretro.beetle-bsnes.so"
+                   library_android="libgame.libretro.beetle-bsnes.so"
                    library_linux="game.libretro.beetle-bsnes.so"
                    library_osx="game.libretro.beetle-bsnes.dylib"
                    library_windx="game.libretro.beetle-bsnes.dll"
                    library_wingl="game.libretro.beetle-bsnes.dll">
 		<platforms>SNES</platforms>
-		<extensions>smc</extensions>
+		<extensions>smc|fig|bs|st|sfc</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Beetle-bsnes v1.0.1</summary>
-		<description>Source: https://github.com/libretro/beetle-bsnes-libretro</description>
+		<description>Standalone port of Mednafen bSNES to libretro, itself a fork of bSNES v0.59.
+
+Supported files: .smc, .fig, .bs, .st, .sfc
+
+License: GPLv2</description>
 		<platform>all</platform>
 	</extension>
 </addon>
