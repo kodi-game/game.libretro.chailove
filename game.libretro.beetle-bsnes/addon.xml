@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.beetle-bsnes"
-		name="Beetle bSNES"
+		name="SNES (Beetle bSNES)"
 		version="0.9.26"
 		provider-name="Libretro">
 	<requires>
