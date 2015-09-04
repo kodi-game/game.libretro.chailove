@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 enable_language(CXX)
 
 find_package(kodi REQUIRED)
-find_package(beetle-bsnes REQUIRED)
+find_package(libretro-beetle-bsnes REQUIRED)
 
 set(DEPLIBS beetle-bsnes)
 set(BEETLE_BSNES_CUSTOM_BINARY ${BEETLE_BSNES_LIB}

@@ -44,4 +44,4 @@ install(FILES ${PROJECT_SOURCE_DIR}/mednafen_snes_libretro${CMAKE_SHARED_LIBRARY
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the beetle-bsnes-config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/beetle-bsnes-config.cmake "set(BEETLE_BSNES_LIB ${CMAKE_INSTALL_PREFIX}/lib/mednafen_snes_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-beetle-bsnes-config.cmake "set(BEETLE_BSNES_LIB ${CMAKE_INSTALL_PREFIX}/lib/mednafen_snes_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
