@@ -8,11 +8,7 @@
 		<import addon="game.controller.snes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.beetle-bsnes.so"
-                   library_linux="game.libretro.beetle-bsnes.so"
-                   library_osx="game.libretro.beetle-bsnes.dylib"
-                   library_windx="game.libretro.beetle-bsnes.dll"
-                   library_wingl="game.libretro.beetle-bsnes.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>SNES</platforms>
 		<extensions>smc|fig|bs|st|sfc</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -25,7 +21,7 @@
 Supported files: .smc, .fig, .bs, .st, .sfc
 
 License: GPLv2</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
