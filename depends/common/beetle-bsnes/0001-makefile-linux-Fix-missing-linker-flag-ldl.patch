@@ -1,0 +1,33 @@
+From 4b42a6eadbe01988cd8780c170db3effb4ed7c76 Mon Sep 17 00:00:00 2001
+From: Christian Fetzer <fetzer.ch@gmail.com>
+Date: Sun, 4 Dec 2016 13:53:17 +0100
+Subject: [PATCH 1/1] makefile/linux: Fix missing linker flag -ldl
+
+The core uses dlopen on linux but doesn't specifiy -ldl resulting in
+undefined reference errors:
+
+mednafen/snes/src/chip/supergameboy/supergameboy.o: In function `nall::library::close()':
+mednafen/snes/src/lib/nall/dl.hpp:57: undefined reference to `dlclose'
+mednafen/snes/src/chip/supergameboy/supergameboy.o: In function `nall::library::open(char const*)':
+mednafen/snes/src/lib/nall/dl.hpp:39: undefined reference to `dlopen'
+mednafen/snes/src/lib/nall/dl.hpp:52: undefined reference to `dlsym'
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 6592f59..8db7038 100644
+--- a/Makefile
++++ b/Makefile
+@@ -33,7 +33,7 @@ ifeq ($(platform), unix)
+    ifneq ($(shell uname -p | grep -E '((i.|x)86|amd64)'),)
+       IS_X86 = 1
+    endif
+-   LDFLAGS += $(PTHREAD_FLAGS)
++   LDFLAGS += $(PTHREAD_FLAGS) -ldl
+    FLAGS += $(PTHREAD_FLAGS) -DHAVE_MKDIR
+ else ifeq ($(platform), osx)
+    TARGET := $(TARGET_NAME)_libretro.dylib
+-- 
+2.11.0
+
