@@ -24,6 +24,7 @@ Supported files: .smc, .fig, .bs, .st, .sfc</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
+			<icon>resources/icon.png</icon>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshot-03.jpg</screenshot>
