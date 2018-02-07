@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.beetle-bsnes"
-		name="Nintendo - SNES / Famicom (Beetle bsnes)"
-		version="0.9.26"
+<addon id="game.libretro.chailove"
+		name="ChaiLove"
+		version="0.14.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -9,19 +9,19 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms>SNES</platforms>
-		<extensions>smc|fig|bs|st|sfc</extensions>
+		<platforms>ChaiLove</platforms>
+		<extensions>chai|chailove</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nintendo - SNES / Famicom (Beetle bsnes) v0.9.26</summary>
-		<description>Beetle bSNES is the SNES module of Beetle, a fork of Mednafen. Mednafen&#39;s SNES module itself is a fork of bSNES v0.59.
+		<summary lang="en">ChaiLove v0.14.0</summary>
+		<description>ChaiLove is a 2D game framework.
 
-Supported files: .smc, .fig, .bs, .st, .sfc</description>
-		<license>GPLv2</license>
+Supported files: .chai, .chailove</description>
+		<license>MIT</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
