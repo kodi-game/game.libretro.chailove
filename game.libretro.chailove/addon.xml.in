@@ -20,6 +20,8 @@
 		<summary lang="en">ChaiLove v0.14.0</summary>
 		<description>ChaiLove is a 2D game framework.
 
+Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language. See https://github.com/RobLoach/ChaiLove for a list of games that are available in ChaiLove.
+
 Supported files: .chai, .chailove</description>
 		<license>MIT</license>
 		<platform>@PLATFORM@</platform>
