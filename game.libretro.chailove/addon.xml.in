@@ -6,15 +6,15 @@
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>ChaiLove</platforms>
 		<extensions>chai|chailove</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_standalone>false</supports_standalone>
-		<supports_keyboard>false</supports_keyboard>
-		<supports_mouse>false</supports_mouse>
+		<supports_standalone>false</supports_standalone
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">ChaiLove v0.14.0</summary>
