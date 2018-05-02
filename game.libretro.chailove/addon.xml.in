@@ -12,17 +12,15 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>ChaiLove</platforms>
-		<extensions>chai|chailove</extensions>
+		<extensions></extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_standalone>true</supports_standalone>
+		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">ChaiLove 0.20.1</summary>
+		<summary lang="en_GB">ChaiLove</summary>
 		<description lang="en_GB">ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
 
-See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
-
-Supported files: .chai, .chailove</description>
+See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.</description>
 		<license>MIT</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
