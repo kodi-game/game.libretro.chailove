@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.chailove"
 		name="ChaiLove"
-		version="0.21.0"
+		version="0.22.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -17,7 +17,7 @@
 		<supports_standalone>true</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">ChaiLove 0.21.0</summary>
+		<summary lang="en_GB">ChaiLove 0.22.2</summary>
 		<description lang="en_GB">ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
 
 See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
