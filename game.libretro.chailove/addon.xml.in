@@ -25,6 +25,7 @@ See https://github.com/libretro/libretro-chailove for a list of games that are a
 Supported files: .chai, .chailove</description>
 		<license>MIT</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.chailove</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<screenshot>resources/screenshot-01.png</screenshot>
