@@ -4,7 +4,7 @@ project(game.libretro.chailove)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(Kodi REQUIRED)
-find_package(libretro-chailove REQUIRED)
+find_library(CHAILOVE_LIB NAMES chailove_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} PATH_SUFFIXES libretro)
 
 set(CHAILOVE_CUSTOM_BINARY ${CHAILOVE_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
