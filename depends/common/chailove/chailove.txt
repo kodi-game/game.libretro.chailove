@@ -1,1 +1,1 @@
-chailove https://github.com/libretro/libretro-chailove v0.30.0
+chailove https://github.com/libretro/libretro-chailove v0.31.0
