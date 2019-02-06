@@ -1,0 +1,17 @@
+Source: kodi-game-libretro-chailove
+Priority: extra
+Maintainer: wsnipex <wsnipex@a1.net>
+Build-Depends: debhelper (>= 9.0.0),
+               cmake,
+               kodi-addon-dev,
+               chailove (>= 0.31.0)
+Standards-Version: 3.9.8
+Section: libs
+
+Package: kodi-game-libretro-chailove
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
+Enhances: kodi
+Description: ChaiLove core for kodi's retroplayer
+ ChaiLove core for kodi's retroplayer
