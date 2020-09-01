@@ -2,7 +2,7 @@
 <addon id="game.libretro.chailove"
 		name="ChaiLove"
 		version="1.1.0.6"
-		provider-name="Libretro">
+		provider-name="Rob Loach">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.default" version="1.0.5"/>
