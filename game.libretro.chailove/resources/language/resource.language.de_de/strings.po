@@ -1,0 +1,29 @@
+# game.libretro.chailove language file
+# Addon Name: game.libretro.chailove
+# Addon id: game.libretro.chailove
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.chailove\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2018-03-06 22:29i\n"
+"PO-Revision-Date: 2018-03-06 22:29i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de_de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Alpha Blending"
+msgstr ""
+
+msgctxt "#30002"
+msgid "High Quality"
+msgstr ""
