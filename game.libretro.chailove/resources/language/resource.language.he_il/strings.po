@@ -17,6 +17,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
+msgctxt "Addon Summary"
+msgid "ChaiLove 1.1.0"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
+
+See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
+
+Supported files: .chai, .chailove"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""

@@ -17,8 +17,6 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">ChaiLove 1.1.0</summary>
-		<description lang="en_GB">ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
 
 See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
 
@@ -32,5 +30,11 @@ Supported files: .chai, .chailove</description>
 			<screenshot>resources/screenshot-02.png</screenshot>
 			<screenshot>resources/screenshot-03.png</screenshot>
 		</assets>
+		<summary lang="en_GB">ChaiLove 1.1.0</summary>
+		<description lang="en_GB">ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
+
+See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
+
+Supported files: .chai, .chailove</description>
 	</extension>
 </addon>
