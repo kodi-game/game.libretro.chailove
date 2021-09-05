@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.chailove"
 		name="ChaiLove"
-		version="1.1.0.9"
+		version="1.1.0.10"
 		provider-name="Rob Loach">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -15,6 +15,7 @@
 		<extensions>chai|chailove</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>MIT</license>
