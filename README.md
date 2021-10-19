@@ -4,23 +4,25 @@
 # ChaiLove
 
 ### Description
+
 ChaiLove is a 2D game framework inspired by the Love2D API.
 
 See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
 
 ### License
+
 MIT
 
 ### Icon
 
 ![Icon](game.libretro.chailove/resources/icon.png)
 
+### Fanart
+
+Help make me fanart!
+
 ### Screenshots
 
 ![Screenshot](game.libretro.chailove/resources/screenshot-01.png)
-
 ![Screenshot](game.libretro.chailove/resources/screenshot-02.png)
-
 ![Screenshot](game.libretro.chailove/resources/screenshot-03.png)
-
-
