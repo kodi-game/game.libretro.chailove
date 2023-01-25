@@ -15,7 +15,7 @@ MIT
 
 ### Icon
 
-![Icon](game.libretro.chailove/resources/icon.png)
+![ChaiLove icon](game.libretro.chailove/resources/icon.png)
 
 ### Fanart
 
@@ -23,6 +23,6 @@ Help make me fanart!
 
 ### Screenshots
 
-![Screenshot](game.libretro.chailove/resources/screenshot-01.png)
-![Screenshot](game.libretro.chailove/resources/screenshot-02.png)
-![Screenshot](game.libretro.chailove/resources/screenshot-03.png)
+![ChaiLove screenshot](game.libretro.chailove/resources/screenshot-01.png)
+![ChaiLove screenshot](game.libretro.chailove/resources/screenshot-02.png)
+![ChaiLove screenshot](game.libretro.chailove/resources/screenshot-03.png)
