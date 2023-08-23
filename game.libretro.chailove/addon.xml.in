@@ -30,6 +30,7 @@
 		<summary lang="da_DK">ChaiLove</summary>
 		<summary lang="en_GB">ChaiLove</summary>
 		<summary lang="es_ES">ChaiLove</summary>
+		<summary lang="it_IT">ChaiLove</summary>
 		<summary lang="zh_CN">ChaiLove</summary>
 		<description lang="da_DK">ChaiLove er en 2D-spilramme inspireret af Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove for en liste over spil, der er tilgængelige i ChaiLove.</description>
 		<description lang="de_DE">ChaiLove ist ein 2D-Spiele-Framework, das von der Love2D-API inspiriert wurde.[CR][CR]Eine Liste der in ChaiLove verfügbaren Spiele findet sich unter https://github.com/libretro/libretro-chailove.</description>
