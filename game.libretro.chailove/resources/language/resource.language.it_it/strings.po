@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "ChaiLove is a 2D game framework inspired by the Love2D API.[CR][CR]See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove."
 msgstr "ChaiLove è un framework di gioco 2D ispirato all'API Love2D.[CR][CR]Vedi https://github.com/libretro/libretro-chailove per un elenco di giochi disponibili in ChaiLove."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Impostazioni"
-
 msgctxt "#30001"
 msgid "Alpha Blending"
 msgstr "Fusione alfa"
@@ -36,3 +32,7 @@ msgstr "Fusione alfa"
 msgctxt "#30002"
 msgid "High Quality"
 msgstr "Alta qualità"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
