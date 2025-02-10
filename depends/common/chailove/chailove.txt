@@ -1,1 +1,0 @@
-chailove https://github.com/kodi-game/libretro-chailove/archive/e970f1191855cc6a4de6103f78506d60a08532d7.tar.gz
