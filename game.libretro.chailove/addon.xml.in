@@ -30,6 +30,7 @@
 		<summary lang="da_DK">ChaiLove</summary>
 		<summary lang="en_GB">ChaiLove</summary>
 		<summary lang="es_ES">ChaiLove</summary>
+		<summary lang="ga">ChaiLove</summary>
 		<summary lang="it_IT">ChaiLove</summary>
 		<summary lang="sv_SE">ChaiLove</summary>
 		<summary lang="zh_CN">ChaiLove</summary>
@@ -37,6 +38,7 @@
 		<description lang="de_DE">ChaiLove ist ein 2D-Spiele-Framework, das von der Love2D-API inspiriert wurde.[CR][CR]Eine Liste der in ChaiLove verfügbaren Spiele findet sich unter https://github.com/libretro/libretro-chailove.</description>
 		<description lang="en_GB">ChaiLove is a 2D game framework inspired by the Love2D API.[CR][CR]See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.</description>
 		<description lang="es_ES">ChaiLove es un framework de juegos 2D inspirado en la API Love2D.[CR][CR]Consulta https://github.com/libretro/libretro-chailove para ver una lista de los juegos disponibles en ChaiLove.</description>
+		<description lang="ga">Is creat cluiche 2T é ChaiLove atá spreagtha ag API Love2D.[CR][CR]Féach https://github.com/libretro/libretro-chailove le haghaidh liosta de na cluichí atá ar fáil i ChaiLove.</description>
 		<description lang="it_IT">ChaiLove è un framework di gioco 2D ispirato all&apos;API Love2D.[CR][CR]Vedi https://github.com/libretro/libretro-chailove per un elenco di giochi disponibili in ChaiLove.</description>
 		<description lang="sl_SI">ChaiLove je ogrodje 2D iger, ki ga je navdihnil API Love2D.[CR][CR]Glejte https://github.com/libretro/libretro-chailove za seznam iger, ki so na voljo v ChaiLove.</description>
 		<description lang="sv_SE">ChaiLove är ett ramverk för 2D-spel inspirerat av Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove för en lista över spel som är tillgängliga i ChaiLove.</description>
