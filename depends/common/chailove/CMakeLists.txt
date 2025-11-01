@@ -3,6 +3,15 @@ project(chailove)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
+include(FetchContent)
+FetchContent_Declare(
+    libretrochailove
+    GIT_REPOSITORY https://github.com/libretro/libretro-chailove.git
+    GIT_TAG 6cf08ec1c0a441f2ebeb942ec0a28d9037b83816
+    SOURCE_DIR chailove
+)
+FetchContent_MakeAvailable(libretrochailove)
+
 include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
