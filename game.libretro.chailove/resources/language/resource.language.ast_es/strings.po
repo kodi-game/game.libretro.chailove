@@ -33,6 +33,14 @@ msgctxt "#30002"
 msgid "High Quality"
 msgstr ""
 
+msgctxt "#30003"
+msgid "Whether or not to enable hardware alpha blending. This will improve graphics, but have an impact on performance."
+msgstr ""
+
+msgctxt "#30004"
+msgid "When enabled, will take steps to improve the graphic fidelity. Can have an impact on performance."
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Axustes"
